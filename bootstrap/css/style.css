@@ -4,6 +4,7 @@
     min-height: 300px;
     background: url(../img/P9180269.JPG) no-repeat center center;
     background-size: cover;
+    display: block;
 }
 
 .jumbotron-container{
@@ -28,6 +29,9 @@
     background-color: #fff;
     color: black;
 }
+.image-resposibe{
+    max-width: 100%;
+}
 
 
 @media (max-width: 767px) {
@@ -46,4 +50,7 @@
     }
     .btn-black {
         margin-bottom: 20px;
+    }
+    .image-resposibe{
+    max-width: 100%;
     }
