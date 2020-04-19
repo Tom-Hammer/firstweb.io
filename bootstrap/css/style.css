@@ -30,32 +30,6 @@
     color: black;
 }
 
-.dinosaur{
-    position: relative;
-    height: 100vh;
-    min-height: 300px;
-    background: url(../img/IMG_3785.jpg) no-repeat center center;
-    background-size: cover;
-    max-width: 100%;
-}
-
-.shark{
-    position: relative;
-    height: 100vh;
-    min-height: 300px;
-    background: url(../img/IMG_3787.jpg) no-repeat center center;
-    background-size: cover;
-    max-width: 100%;
-}
-
-.monster{
-    position: relative;
-    height: 100vh;
-    min-height: 300px;
-    background: url(../img/IMG_3788.jpg) no-repeat center center;
-    background-size: cover;
-    max-width: 100%;
-}
 
 
 
@@ -75,34 +49,4 @@
     }
     .btn-black {
         margin-bottom: 20px;
-    }
-
-    .dinosaur{
-        position: relative;
-        height: 100vh;
-        min-height: 300px;
-        background: url(../img/IMG_3785.jpg) no-repeat center center;
-        background-size: cover;
-        display: block;
-        max-width: 100%;
-    }
-    
-    .shark{
-        position: relative;
-        height: 100vh;
-        min-height: 300px;
-        background: url(../img/IMG_3787.jpg) no-repeat center center;
-        background-size: cover;
-        display: block;
-        max-width: 100%;
-    }
-    
-    .monster{
-        position: relative;
-        height: 100vh;
-        min-height: 300px;
-        background: url(../img/IMG_3788.jpg) no-repeat center center;
-        background-size: cover;
-        display: block;
-        max-width: 100%;
     }
