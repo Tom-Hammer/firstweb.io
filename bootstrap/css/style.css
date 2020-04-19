@@ -29,9 +29,34 @@
     background-color: #fff;
     color: black;
 }
-.image-resposibe{
+
+.dinosaur{
+    position: relative;
+    height: 100vh;
+    min-height: 300px;
+    background: url(../img/IMG_3785.jpg) no-repeat center center;
+    background-size: cover;
     max-width: 100%;
 }
+
+.shark{
+    position: relative;
+    height: 100vh;
+    min-height: 300px;
+    background: url(../img/IMG_3787.jpg) no-repeat center center;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.monster{
+    position: relative;
+    height: 100vh;
+    min-height: 300px;
+    background: url(../img/IMG_3788.jpg) no-repeat center center;
+    background-size: cover;
+    max-width: 100%;
+}
+
 
 
 @media (max-width: 767px) {
@@ -51,6 +76,33 @@
     .btn-black {
         margin-bottom: 20px;
     }
-    .image-resposibe{
-    max-width: 100%;
+
+    .dinosaur{
+        position: relative;
+        height: 100vh;
+        min-height: 300px;
+        background: url(../img/IMG_3785.jpg) no-repeat center center;
+        background-size: cover;
+        display: block;
+        max-width: 100%;
+    }
+    
+    .shark{
+        position: relative;
+        height: 100vh;
+        min-height: 300px;
+        background: url(../img/IMG_3787.jpg) no-repeat center center;
+        background-size: cover;
+        display: block;
+        max-width: 100%;
+    }
+    
+    .monster{
+        position: relative;
+        height: 100vh;
+        min-height: 300px;
+        background: url(../img/IMG_3788.jpg) no-repeat center center;
+        background-size: cover;
+        display: block;
+        max-width: 100%;
     }
